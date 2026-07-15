@@ -1,0 +1,37 @@
+2026-07-15 09:14:14.893 | INFO     | __main__:main:691 - Starting validation run...
+2026-07-15 09:14:14.912 | INFO     | __main__:load_processed_csvs:142 - Loaded analysis.csv -> table 'analysis' (20 rows, 6 cols)
+2026-07-15 09:14:14.913 | DEBUG    | __main__:load_processed_csvs:143 - analysis columns: ['id', 'company_id', 'compounded_sales_growth', 'compounded_profit_growth', 'stock_price_cagr', 'roe']
+2026-07-15 09:14:14.930 | INFO     | __main__:load_processed_csvs:142 - Loaded balancesheet.csv -> table 'balancesheet' (1312 rows, 13 cols)
+2026-07-15 09:14:14.931 | DEBUG    | __main__:load_processed_csvs:143 - balancesheet columns: ['id', 'company_id', 'year', 'equity_capital', 'reserves', 'borrowings', 'other_liabilities', 'total_liabilities', 'fixed_assets', 'cwip', 'investments', 'other_asset', 'total_assets']
+2026-07-15 09:14:14.948 | INFO     | __main__:load_processed_csvs:142 - Loaded cashflow.csv -> table 'cashflow' (1187 rows, 7 cols)
+2026-07-15 09:14:14.948 | DEBUG    | __main__:load_processed_csvs:143 - cashflow columns: ['id', 'company_id', 'year', 'operating_activity', 'investing_activity', 'financing_activity', 'net_cash_flow']
+2026-07-15 09:14:14.976 | INFO     | __main__:load_processed_csvs:142 - Loaded companies.csv -> table 'companies' (92 rows, 12 cols)
+2026-07-15 09:14:14.976 | DEBUG    | __main__:load_processed_csvs:143 - companies columns: ['id', 'company_logo', 'company_name', 'chart_link', 'about_company', 'website', 'nse_profile', 'bse_profile', 'face_value', 'book_value', 'roce_percentage', 'roe_percentage']
+2026-07-15 09:14:15.005 | INFO     | __main__:load_processed_csvs:142 - Loaded documents.csv -> table 'documents' (1585 rows, 4 cols)
+2026-07-15 09:14:15.005 | DEBUG    | __main__:load_processed_csvs:143 - documents columns: ['id', 'company_id', 'year', 'annual_report']
+2026-07-15 09:14:15.029 | INFO     | __main__:load_processed_csvs:142 - Loaded financial_ratios.csv -> table 'financial' (1184 rows, 16 cols)
+2026-07-15 09:14:15.029 | DEBUG    | __main__:load_processed_csvs:143 - financial columns: ['id', 'company_id', 'year', 'net_profit_margin_pct', 'operating_profit_margin_pct', 'return_on_equity_pct', 'debt_to_equity', 'interest_coverage', 'asset_turnover', 'free_cash_flow_cr', 'capex_cr', 'earnings_per_share', 'book_value_per_share', 'dividend_payout_ratio_pct', 'total_debt_cr', 'cash_from_operations_cr']
+2026-07-15 09:14:15.050 | INFO     | __main__:load_processed_csvs:142 - Loaded market_cap.csv -> table 'market' (552 rows, 9 cols)
+2026-07-15 09:14:15.051 | DEBUG    | __main__:load_processed_csvs:143 - market columns: ['id', 'company_id', 'year', 'market_cap_crore', 'enterprise_value_crore', 'pe_ratio', 'pb_ratio', 'ev_ebitda', 'dividend_yield_pct']
+2026-07-15 09:14:15.074 | INFO     | __main__:load_processed_csvs:142 - Loaded peer_groups.csv -> table 'peer' (56 rows, 4 cols)
+2026-07-15 09:14:15.076 | DEBUG    | __main__:load_processed_csvs:143 - peer columns: ['id', 'peer_group_name', 'company_id', 'is_benchmark']
+2026-07-15 09:14:15.093 | INFO     | __main__:load_processed_csvs:142 - Loaded profitandloss.csv -> table 'profitandloss' (1276 rows, 15 cols)
+2026-07-15 09:14:15.093 | DEBUG    | __main__:load_processed_csvs:143 - profitandloss columns: ['id', 'company_id', 'year', 'sales', 'expenses', 'operating_profit', 'opm_percentage', 'other_income', 'interest', 'depreciation', 'profit_before_tax', 'tax_percentage', 'net_profit', 'eps', 'dividend_payout']
+2026-07-15 09:14:15.106 | INFO     | __main__:load_processed_csvs:142 - Loaded prosandcons.csv -> table 'prosandcons' (16 rows, 4 cols)
+2026-07-15 09:14:15.107 | DEBUG    | __main__:load_processed_csvs:143 - prosandcons columns: ['id', 'company_id', 'pros', 'cons']
+2026-07-15 09:14:15.117 | INFO     | __main__:load_processed_csvs:142 - Loaded sectors.csv -> table 'sectors' (92 rows, 6 cols)
+2026-07-15 09:14:15.118 | DEBUG    | __main__:load_processed_csvs:143 - sectors columns: ['id', 'company_id', 'broad_sector', 'sub_sector', 'index_weight_pct', 'market_cap_category']
+2026-07-15 09:14:15.174 | INFO     | __main__:load_processed_csvs:142 - Loaded stock_prices.csv -> table 'stock' (5520 rows, 9 cols)
+2026-07-15 09:14:15.174 | DEBUG    | __main__:load_processed_csvs:143 - stock columns: ['id', 'company_id', 'date', 'open_price', 'high_price', 'low_price', 'close_price', 'volume', 'adjusted_close']
+2026-07-15 09:14:15.208 | WARNING  | __main__:check_company_year_key:176 - DQ-02: skipping 'balancesheet' (missing company/year column).
+2026-07-15 09:14:15.208 | WARNING  | __main__:check_foreign_key:194 - DQ-03: skipping 'balancesheet' (missing company column or no companies list).
+2026-07-15 09:14:15.305 | WARNING  | __main__:check_company_year_key:176 - DQ-02: skipping 'cashflow' (missing company/year column).
+2026-07-15 09:14:15.307 | WARNING  | __main__:check_foreign_key:194 - DQ-03: skipping 'cashflow' (missing company column or no companies list).
+2026-07-15 09:14:15.430 | WARNING  | __main__:check_company_year_key:176 - DQ-02: skipping 'profitandloss' (missing company/year column).
+2026-07-15 09:14:15.430 | WARNING  | __main__:check_foreign_key:194 - DQ-03: skipping 'profitandloss' (missing company column or no companies list).
+2026-07-15 09:14:15.532 | WARNING  | __main__:check_balance_sheet_equation:218 - DQ-04: skipping (missing assets/liabilities/equity columns in balance sheet).
+2026-07-15 09:14:15.620 | WARNING  | __main__:check_dividend:438 - DQ-10: skipping (missing dividend column).
+2026-07-15 09:14:15.623 | WARNING  | __main__:check_cash_flow_consistency:335 - DQ-07: skipping (missing one of operating/investing/financing/net cash flow columns).
+2026-07-15 09:14:15.623 | WARNING  | __main__:check_net_cash:368 - DQ-08: skipping (missing opening/closing/net cash columns).
+2026-07-15 09:14:15.682 | SUCCESS  | __main__:save_failures:687 - Saved -> D:\Intern_BlueStock\nifty100-data-foundation\output\validation_failures.csv (17698 failure(s) recorded)
+2026-07-15 09:14:15.684 | INFO     | __main__:main:695 - Validation complete.

@@ -1,0 +1,155 @@
+2026-07-13 16:10:41.068 | INFO     | __main__:main:137 - 12 Excel files found
+2026-07-13 16:10:41.068 | INFO     | __main__:load_excel:64 - Loading analysis.xlsx (header=1)
+2026-07-13 16:10:41.493 | SUCCESS  | __main__:save_csv:92 - Saved analysis.csv
+2026-07-13 16:10:41.493 | INFO     | __main__:load_excel:64 - Loading balancesheet.xlsx (header=1)
+2026-07-13 16:10:41.642 | SUCCESS  | __main__:save_csv:92 - Saved balancesheet.csv
+2026-07-13 16:10:41.642 | INFO     | __main__:load_excel:64 - Loading cashflow.xlsx (header=1)
+2026-07-13 16:10:41.731 | SUCCESS  | __main__:save_csv:92 - Saved cashflow.csv
+2026-07-13 16:10:41.731 | INFO     | __main__:load_excel:64 - Loading companies.xlsx (header=1)
+2026-07-13 16:10:41.765 | SUCCESS  | __main__:save_csv:92 - Saved companies.csv
+2026-07-13 16:10:41.766 | INFO     | __main__:load_excel:64 - Loading documents.xlsx (header=1)
+2026-07-13 16:10:41.842 | SUCCESS  | __main__:save_csv:92 - Saved documents.csv
+2026-07-13 16:10:41.842 | INFO     | __main__:load_excel:64 - Loading financial_ratios.xlsx (header=0)
+2026-07-13 16:10:41.968 | SUCCESS  | __main__:save_csv:92 - Saved financial_ratios.csv
+2026-07-13 16:10:41.968 | INFO     | __main__:load_excel:64 - Loading market_cap.xlsx (header=0)
+2026-07-13 16:10:42.008 | SUCCESS  | __main__:save_csv:92 - Saved market_cap.csv
+2026-07-13 16:10:42.008 | INFO     | __main__:load_excel:64 - Loading peer_groups.xlsx (header=0)
+2026-07-13 16:10:42.021 | SUCCESS  | __main__:save_csv:92 - Saved peer_groups.csv
+2026-07-13 16:10:42.021 | INFO     | __main__:load_excel:64 - Loading profitandloss.xlsx (header=1)
+2026-07-13 16:10:42.155 | SUCCESS  | __main__:save_csv:92 - Saved profitandloss.csv
+2026-07-13 16:10:42.155 | INFO     | __main__:load_excel:64 - Loading prosandcons.xlsx (header=1)
+2026-07-13 16:10:42.164 | SUCCESS  | __main__:save_csv:92 - Saved prosandcons.csv
+2026-07-13 16:10:42.165 | INFO     | __main__:load_excel:64 - Loading sectors.xlsx (header=0)
+2026-07-13 16:10:42.184 | SUCCESS  | __main__:save_csv:92 - Saved sectors.csv
+2026-07-13 16:10:42.184 | INFO     | __main__:load_excel:64 - Loading stock_prices.xlsx (header=0)
+2026-07-13 16:10:42.595 | SUCCESS  | __main__:save_csv:92 - Saved stock_prices.csv
+2026-07-13 16:10:42.603 | SUCCESS  | __main__:generate_audit:111 - load_audit.csv generated
+2026-07-13 16:10:42.605 | SUCCESS  | __main__:main:173 - ETL Completed
+2026-07-13 16:12:48.896 | INFO     | __main__:main:137 - 12 Excel files found
+2026-07-13 16:12:48.897 | INFO     | __main__:load_excel:64 - Loading analysis.xlsx (header=1)
+2026-07-13 16:12:49.154 | SUCCESS  | __main__:save_csv:92 - Saved analysis.csv
+2026-07-13 16:12:49.154 | INFO     | __main__:load_excel:64 - Loading balancesheet.xlsx (header=1)
+2026-07-13 16:12:49.274 | SUCCESS  | __main__:save_csv:92 - Saved balancesheet.csv
+2026-07-13 16:12:49.275 | INFO     | __main__:load_excel:64 - Loading cashflow.xlsx (header=1)
+2026-07-13 16:12:49.358 | SUCCESS  | __main__:save_csv:92 - Saved cashflow.csv
+2026-07-13 16:12:49.358 | INFO     | __main__:load_excel:64 - Loading companies.xlsx (header=1)
+2026-07-13 16:12:49.387 | SUCCESS  | __main__:save_csv:92 - Saved companies.csv
+2026-07-13 16:12:49.387 | INFO     | __main__:load_excel:64 - Loading documents.xlsx (header=1)
+2026-07-13 16:12:49.455 | SUCCESS  | __main__:save_csv:92 - Saved documents.csv
+2026-07-13 16:12:49.456 | INFO     | __main__:load_excel:64 - Loading financial_ratios.xlsx (header=0)
+2026-07-13 16:12:49.579 | SUCCESS  | __main__:save_csv:92 - Saved financial_ratios.csv
+2026-07-13 16:12:49.579 | INFO     | __main__:load_excel:64 - Loading market_cap.xlsx (header=0)
+2026-07-13 16:12:49.622 | SUCCESS  | __main__:save_csv:92 - Saved market_cap.csv
+2026-07-13 16:12:49.623 | INFO     | __main__:load_excel:64 - Loading peer_groups.xlsx (header=0)
+2026-07-13 16:12:49.632 | SUCCESS  | __main__:save_csv:92 - Saved peer_groups.csv
+2026-07-13 16:12:49.633 | INFO     | __main__:load_excel:64 - Loading profitandloss.xlsx (header=1)
+2026-07-13 16:12:49.764 | SUCCESS  | __main__:save_csv:92 - Saved profitandloss.csv
+2026-07-13 16:12:49.764 | INFO     | __main__:load_excel:64 - Loading prosandcons.xlsx (header=1)
+2026-07-13 16:12:49.773 | SUCCESS  | __main__:save_csv:92 - Saved prosandcons.csv
+2026-07-13 16:12:49.773 | INFO     | __main__:load_excel:64 - Loading sectors.xlsx (header=0)
+2026-07-13 16:12:49.788 | SUCCESS  | __main__:save_csv:92 - Saved sectors.csv
+2026-07-13 16:12:49.788 | INFO     | __main__:load_excel:64 - Loading stock_prices.xlsx (header=0)
+2026-07-13 16:12:50.135 | SUCCESS  | __main__:save_csv:92 - Saved stock_prices.csv
+2026-07-13 16:12:50.140 | SUCCESS  | __main__:generate_audit:111 - load_audit.csv generated
+2026-07-13 16:12:50.140 | SUCCESS  | __main__:main:173 - ETL Completed
+2026-07-13 19:44:30.176 | INFO     | __main__:main:155 - 12 Excel files found
+2026-07-13 19:44:30.177 | INFO     | __main__:load_excel:80 - Loading analysis.xlsx (header=1)
+2026-07-13 19:44:30.674 | SUCCESS  | __main__:save_csv:110 - Saved analysis.csv
+2026-07-13 19:44:30.699 | INFO     | __main__:load_excel:80 - Loading balancesheet.xlsx (header=1)
+2026-07-13 19:44:30.852 | SUCCESS  | __main__:save_csv:110 - Saved balancesheet.csv
+2026-07-13 19:44:30.852 | INFO     | __main__:load_excel:80 - Loading cashflow.xlsx (header=1)
+2026-07-13 19:44:30.967 | SUCCESS  | __main__:save_csv:110 - Saved cashflow.csv
+2026-07-13 19:44:30.968 | INFO     | __main__:load_excel:80 - Loading companies.xlsx (header=1)
+2026-07-13 19:44:31.020 | SUCCESS  | __main__:save_csv:110 - Saved companies.csv
+2026-07-13 19:44:31.021 | INFO     | __main__:load_excel:80 - Loading documents.xlsx (header=1)
+2026-07-13 19:44:31.114 | SUCCESS  | __main__:save_csv:110 - Saved documents.csv
+2026-07-13 19:44:31.115 | INFO     | __main__:load_excel:80 - Loading financial_ratios.xlsx (header=0)
+2026-07-13 19:44:31.367 | SUCCESS  | __main__:save_csv:110 - Saved financial_ratios.csv
+2026-07-13 19:44:31.367 | INFO     | __main__:load_excel:80 - Loading market_cap.xlsx (header=0)
+2026-07-13 19:44:31.431 | SUCCESS  | __main__:save_csv:110 - Saved market_cap.csv
+2026-07-13 19:44:31.432 | INFO     | __main__:load_excel:80 - Loading peer_groups.xlsx (header=0)
+2026-07-13 19:44:31.458 | SUCCESS  | __main__:save_csv:110 - Saved peer_groups.csv
+2026-07-13 19:44:31.458 | INFO     | __main__:load_excel:80 - Loading profitandloss.xlsx (header=1)
+2026-07-13 19:44:31.643 | SUCCESS  | __main__:save_csv:110 - Saved profitandloss.csv
+2026-07-13 19:44:31.643 | INFO     | __main__:load_excel:80 - Loading prosandcons.xlsx (header=1)
+2026-07-13 19:44:31.671 | SUCCESS  | __main__:save_csv:110 - Saved prosandcons.csv
+2026-07-13 19:44:31.673 | INFO     | __main__:load_excel:80 - Loading sectors.xlsx (header=0)
+2026-07-13 19:44:31.724 | SUCCESS  | __main__:save_csv:110 - Saved sectors.csv
+2026-07-13 19:44:31.725 | INFO     | __main__:load_excel:80 - Loading stock_prices.xlsx (header=0)
+2026-07-13 19:44:32.155 | SUCCESS  | __main__:save_csv:110 - Saved stock_prices.csv
+2026-07-13 19:44:32.158 | SUCCESS  | __main__:generate_audit:132 - load_audit.csv generated
+2026-07-13 19:44:32.158 | SUCCESS  | __main__:main:191 - ETL Completed
+2026-07-14 12:52:32.718 | INFO     | __main__:main:149 - 12 Excel files found
+2026-07-14 12:52:32.719 | INFO     | __main__:load_excel:74 - Loading analysis.xlsx (header=1)
+2026-07-14 12:52:33.215 | SUCCESS  | __main__:save_csv:104 - Saved analysis.csv
+2026-07-14 12:52:33.215 | INFO     | __main__:load_excel:74 - Loading balancesheet.xlsx (header=1)
+2026-07-14 12:52:33.411 | SUCCESS  | __main__:save_csv:104 - Saved balancesheet.csv
+2026-07-14 12:52:33.411 | INFO     | __main__:load_excel:74 - Loading cashflow.xlsx (header=1)
+2026-07-14 12:52:33.526 | SUCCESS  | __main__:save_csv:104 - Saved cashflow.csv
+2026-07-14 12:52:33.527 | INFO     | __main__:load_excel:74 - Loading companies.xlsx (header=1)
+2026-07-14 12:52:33.579 | SUCCESS  | __main__:save_csv:104 - Saved companies.csv
+2026-07-14 12:52:33.580 | INFO     | __main__:load_excel:74 - Loading documents.xlsx (header=1)
+2026-07-14 12:52:33.705 | SUCCESS  | __main__:save_csv:104 - Saved documents.csv
+2026-07-14 12:52:33.706 | INFO     | __main__:load_excel:74 - Loading financial_ratios.xlsx (header=0)
+2026-07-14 12:52:33.938 | SUCCESS  | __main__:save_csv:104 - Saved financial_ratios.csv
+2026-07-14 12:52:33.939 | INFO     | __main__:load_excel:74 - Loading market_cap.xlsx (header=0)
+2026-07-14 12:52:34.032 | SUCCESS  | __main__:save_csv:104 - Saved market_cap.csv
+2026-07-14 12:52:34.032 | INFO     | __main__:load_excel:74 - Loading peer_groups.xlsx (header=0)
+2026-07-14 12:52:34.057 | SUCCESS  | __main__:save_csv:104 - Saved peer_groups.csv
+2026-07-14 12:52:34.058 | INFO     | __main__:load_excel:74 - Loading profitandloss.xlsx (header=1)
+2026-07-14 12:52:34.307 | SUCCESS  | __main__:save_csv:104 - Saved profitandloss.csv
+2026-07-14 12:52:34.308 | INFO     | __main__:load_excel:74 - Loading prosandcons.xlsx (header=1)
+2026-07-14 12:52:34.324 | SUCCESS  | __main__:save_csv:104 - Saved prosandcons.csv
+2026-07-14 12:52:34.324 | INFO     | __main__:load_excel:74 - Loading sectors.xlsx (header=0)
+2026-07-14 12:52:34.370 | SUCCESS  | __main__:save_csv:104 - Saved sectors.csv
+2026-07-14 12:52:34.370 | INFO     | __main__:load_excel:74 - Loading stock_prices.xlsx (header=0)
+2026-07-14 12:52:34.950 | SUCCESS  | __main__:save_csv:104 - Saved stock_prices.csv
+2026-07-14 12:52:34.954 | SUCCESS  | __main__:generate_audit:126 - load_audit.csv generated
+2026-07-14 12:52:34.954 | SUCCESS  | __main__:main:185 - ETL Completed
+2026-07-14 14:14:01.930 | INFO     | __main__:main:149 - 12 Excel files found
+2026-07-14 14:14:01.933 | INFO     | __main__:load_excel:74 - Loading analysis.xlsx (header=1)
+2026-07-14 14:14:03.050 | SUCCESS  | __main__:save_csv:104 - Saved analysis.csv
+2026-07-14 14:14:03.051 | INFO     | __main__:load_excel:74 - Loading balancesheet.xlsx (header=1)
+2026-07-14 14:14:03.360 | SUCCESS  | __main__:save_csv:104 - Saved balancesheet.csv
+2026-07-14 14:14:03.361 | INFO     | __main__:load_excel:74 - Loading cashflow.xlsx (header=1)
+2026-07-14 14:14:03.579 | SUCCESS  | __main__:save_csv:104 - Saved cashflow.csv
+2026-07-14 14:14:03.580 | INFO     | __main__:load_excel:74 - Loading companies.xlsx (header=1)
+2026-07-14 14:14:03.674 | SUCCESS  | __main__:save_csv:104 - Saved companies.csv
+2026-07-14 14:14:03.677 | INFO     | __main__:load_excel:74 - Loading documents.xlsx (header=1)
+2026-07-14 14:14:03.916 | SUCCESS  | __main__:save_csv:104 - Saved documents.csv
+2026-07-14 14:14:03.917 | INFO     | __main__:load_excel:74 - Loading financial_ratios.xlsx (header=0)
+2026-07-14 14:14:04.643 | SUCCESS  | __main__:save_csv:104 - Saved financial_ratios.csv
+2026-07-14 14:14:04.645 | INFO     | __main__:load_excel:74 - Loading market_cap.xlsx (header=0)
+2026-07-14 14:14:04.875 | SUCCESS  | __main__:save_csv:104 - Saved market_cap.csv
+2026-07-14 14:14:04.876 | INFO     | __main__:load_excel:74 - Loading peer_groups.xlsx (header=0)
+2026-07-14 14:14:04.954 | SUCCESS  | __main__:save_csv:104 - Saved peer_groups.csv
+2026-07-14 14:14:04.956 | INFO     | __main__:load_excel:74 - Loading profitandloss.xlsx (header=1)
+2026-07-14 14:14:05.499 | SUCCESS  | __main__:save_csv:104 - Saved profitandloss.csv
+2026-07-14 14:14:05.500 | INFO     | __main__:load_excel:74 - Loading prosandcons.xlsx (header=1)
+2026-07-14 14:14:05.550 | SUCCESS  | __main__:save_csv:104 - Saved prosandcons.csv
+2026-07-14 14:14:05.552 | INFO     | __main__:load_excel:74 - Loading sectors.xlsx (header=0)
+2026-07-14 14:14:05.613 | SUCCESS  | __main__:save_csv:104 - Saved sectors.csv
+2026-07-14 14:14:05.614 | INFO     | __main__:load_excel:74 - Loading stock_prices.xlsx (header=0)
+2026-07-14 14:14:06.428 | SUCCESS  | __main__:save_csv:104 - Saved stock_prices.csv
+2026-07-14 14:14:06.433 | SUCCESS  | __main__:generate_audit:126 - load_audit.csv generated
+2026-07-14 14:14:06.434 | SUCCESS  | __main__:main:185 - ETL Completed
+2026-07-14 14:20:10.783 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:11.277 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:11.339 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:11.410 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:11.466 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:34.026 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:34.438 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:34.514 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:34.578 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:20:34.660 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:21:02.416 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:21:02.663 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:21:02.733 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:21:02.800 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:21:02.838 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:25:37.595 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:25:38.084 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:25:38.151 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:25:38.226 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)
+2026-07-14 14:25:38.292 | INFO     | src.etl.loader:load_excel:74 - Loading sample.xlsx (header=0)

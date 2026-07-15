@@ -1,0 +1,4 @@
+Table,Rows Loaded,Rejected,Time,Status,Message
+companies,92,0,2026-07-14 14:44:46,SUCCESS,
+profitandloss,1276,0,2026-07-14 14:44:46,SUCCESS,
+balancesheet,1312,0,2026-07-14 14:44:46,SUCCESS,
