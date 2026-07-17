@@ -35,3 +35,513 @@
 2026-07-15 09:14:15.623 | WARNING  | __main__:check_net_cash:368 - DQ-08: skipping (missing opening/closing/net cash columns).
 2026-07-15 09:14:15.682 | SUCCESS  | __main__:save_failures:687 - Saved -> D:\Intern_BlueStock\nifty100-data-foundation\output\validation_failures.csv (17698 failure(s) recorded)
 2026-07-15 09:14:15.684 | INFO     | __main__:main:695 - Validation complete.
+2026-07-15 10:27:55.826 | INFO     | __main__:main:92 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:27:55.846 | INFO     | __main__:connect:34 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:27:55.939 | SUCCESS  | __main__:create_schema:40 - Schema created
+2026-07-15 10:28:03.947 | INFO     | __main__:main:92 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:28:03.950 | INFO     | __main__:connect:34 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:28:04.058 | SUCCESS  | __main__:create_schema:40 - Schema created
+2026-07-15 10:28:53.851 | INFO     | __main__:main:102 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:28:53.860 | INFO     | __main__:connect:34 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:28:54.001 | SUCCESS  | __main__:create_schema:40 - Schema created
+2026-07-15 10:29:01.982 | INFO     | __main__:main:102 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:29:01.983 | INFO     | __main__:connect:34 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:29:02.298 | SUCCESS  | __main__:create_schema:40 - Schema created
+2026-07-15 10:33:23.892 | INFO     | __main__:main:119 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:33:23.900 | INFO     | __main__:connect:35 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:33:23.986 | SUCCESS  | __main__:create_schema:41 - Schema created
+2026-07-15 10:33:24.043 | SUCCESS  | __main__:load_all_tables:73 - Loaded 92 rows into 'companies'
+2026-07-15 10:37:55.083 | INFO     | __main__:main:139 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:37:55.092 | INFO     | __main__:connect:35 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:37:55.197 | SUCCESS  | __main__:create_schema:41 - Schema created
+2026-07-15 10:38:08.168 | INFO     | __main__:main:139 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:38:08.170 | INFO     | __main__:connect:35 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:38:08.314 | SUCCESS  | __main__:create_schema:41 - Schema created
+2026-07-15 10:43:18.070 | INFO     | __main__:main:133 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:43:18.078 | INFO     | __main__:connect:35 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:43:18.695 | SUCCESS  | __main__:create_schema:41 - Schema created
+2026-07-15 10:43:18.696 | INFO     | __main__:main:142 - Loading 'companies' table...
+2026-07-15 10:43:18.772 | SUCCESS  | __main__:main:145 - Loaded 92 rows into 'companies'
+2026-07-15 10:43:36.594 | INFO     | __main__:main:133 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:43:36.596 | INFO     | __main__:connect:35 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 10:43:37.112 | SUCCESS  | __main__:create_schema:41 - Schema created
+2026-07-15 10:43:37.114 | INFO     | __main__:main:142 - Loading 'companies' table...
+2026-07-15 10:43:37.154 | SUCCESS  | __main__:main:145 - Loaded 92 rows into 'companies'
+2026-07-15 11:23:55.079 | INFO     | __main__:main:128 - 12 Excel files found
+2026-07-15 11:23:55.083 | INFO     | __main__:load_excel:56 - Loading analysis.xlsx (header=1)
+2026-07-15 11:23:56.666 | SUCCESS  | __main__:save_csv:86 - Saved analysis.csv
+2026-07-15 11:23:56.667 | INFO     | __main__:load_excel:56 - Loading balancesheet.xlsx (header=1)
+2026-07-15 11:23:56.914 | SUCCESS  | __main__:save_csv:86 - Saved balancesheet.csv
+2026-07-15 11:23:56.915 | INFO     | __main__:load_excel:56 - Loading cashflow.xlsx (header=1)
+2026-07-15 11:23:57.057 | SUCCESS  | __main__:save_csv:86 - Saved cashflow.csv
+2026-07-15 11:23:57.057 | INFO     | __main__:load_excel:56 - Loading companies.xlsx (header=1)
+2026-07-15 11:23:57.112 | SUCCESS  | __main__:save_csv:86 - Saved companies.csv
+2026-07-15 11:23:57.112 | INFO     | __main__:load_excel:56 - Loading documents.xlsx (header=1)
+2026-07-15 11:23:57.304 | SUCCESS  | __main__:save_csv:86 - Saved documents.csv
+2026-07-15 11:23:57.305 | INFO     | __main__:load_excel:56 - Loading financial_ratios.xlsx (header=0)
+2026-07-15 11:23:57.640 | SUCCESS  | __main__:save_csv:86 - Saved financial_ratios.csv
+2026-07-15 11:23:57.641 | INFO     | __main__:load_excel:56 - Loading market_cap.xlsx (header=0)
+2026-07-15 11:23:57.731 | SUCCESS  | __main__:save_csv:86 - Saved market_cap.csv
+2026-07-15 11:23:57.731 | INFO     | __main__:load_excel:56 - Loading peer_groups.xlsx (header=0)
+2026-07-15 11:23:57.793 | SUCCESS  | __main__:save_csv:86 - Saved peer_groups.csv
+2026-07-15 11:23:57.793 | INFO     | __main__:load_excel:56 - Loading profitandloss.xlsx (header=1)
+2026-07-15 11:23:58.059 | SUCCESS  | __main__:save_csv:86 - Saved profitandloss.csv
+2026-07-15 11:23:58.060 | INFO     | __main__:load_excel:56 - Loading prosandcons.xlsx (header=1)
+2026-07-15 11:23:58.094 | SUCCESS  | __main__:save_csv:86 - Saved prosandcons.csv
+2026-07-15 11:23:58.095 | INFO     | __main__:load_excel:56 - Loading sectors.xlsx (header=0)
+2026-07-15 11:23:58.136 | SUCCESS  | __main__:save_csv:86 - Saved sectors.csv
+2026-07-15 11:23:58.137 | INFO     | __main__:load_excel:56 - Loading stock_prices.xlsx (header=0)
+2026-07-15 11:23:58.951 | SUCCESS  | __main__:save_csv:86 - Saved stock_prices.csv
+2026-07-15 11:23:58.956 | SUCCESS  | __main__:generate_audit:105 - load_audit.csv generated
+2026-07-15 11:23:58.956 | SUCCESS  | __main__:main:164 - ETL Completed
+2026-07-15 11:24:09.318 | INFO     | __main__:main:245 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:24:09.336 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:24:09.467 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:24:09.467 | INFO     | __main__:main:253 - Loading 'companies' table...
+2026-07-15 11:24:09.620 | SUCCESS  | __main__:main:256 - Loaded 92 rows into 'companies'
+2026-07-15 11:25:20.492 | INFO     | __main__:main:257 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:25:20.503 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:25:20.607 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:25:20.607 | INFO     | __main__:main:265 - Loading 'companies' table...
+2026-07-15 11:25:20.668 | SUCCESS  | __main__:main:268 - Loaded 92 rows into 'companies'
+2026-07-15 11:25:20.687 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:25:20.694 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:25:20.703 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:25:20.709 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:25:20.715 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:25:20.723 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:25:20.850 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:25:20.858 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:25:20.867 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:25:20.873 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:25:20.948 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:25:20.959 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:25:21.018 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:25:21.025 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:25:21.067 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:25:21.073 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:25:21.184 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:25:21.190 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:26:07.410 | INFO     | __main__:main:257 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:26:07.420 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:26:07.517 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:26:07.517 | INFO     | __main__:main:265 - Loading 'companies' table...
+2026-07-15 11:26:07.588 | SUCCESS  | __main__:main:268 - Loaded 92 rows into 'companies'
+2026-07-15 11:26:07.619 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:26:07.625 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:26:07.631 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:26:07.639 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:26:07.645 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:26:07.651 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:26:07.663 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:26:07.673 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:26:07.680 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:26:07.687 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:26:07.697 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:26:07.709 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:26:07.720 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:26:07.728 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:26:07.735 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:26:07.742 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:26:07.760 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:26:07.768 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:28:31.907 | INFO     | __main__:main:257 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:28:31.924 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:28:32.068 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:28:32.069 | INFO     | __main__:main:265 - Loading 'companies' table...
+2026-07-15 11:28:32.158 | SUCCESS  | __main__:main:268 - Loaded 92 rows into 'companies'
+2026-07-15 11:28:32.178 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:28:32.185 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:28:32.191 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:28:32.196 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:28:32.202 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:28:32.208 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:28:32.220 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:28:32.225 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:28:32.229 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:28:32.236 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:28:32.246 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:28:32.257 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:28:32.267 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:28:32.274 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:28:32.281 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:28:32.287 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:28:32.306 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:28:32.312 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:30:49.808 | INFO     | __main__:main:257 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:30:49.823 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:30:49.955 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:30:49.955 | INFO     | __main__:main:265 - Loading 'companies' table...
+2026-07-15 11:30:50.041 | SUCCESS  | __main__:main:268 - Loaded 92 rows into 'companies'
+2026-07-15 11:30:50.062 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:30:50.069 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:30:50.074 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:30:50.079 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:30:50.085 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:30:50.090 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:30:50.102 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:30:50.107 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:30:50.114 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:30:50.122 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:30:50.133 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:30:50.146 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:30:50.159 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:30:50.169 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:30:50.177 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:30:50.183 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:30:50.201 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:30:50.207 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:38:14.945 | INFO     | __main__:main:256 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:38:14.956 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:38:15.040 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:38:15.040 | INFO     | __main__:main:264 - Loading 'companies' table...
+2026-07-15 11:38:15.126 | SUCCESS  | __main__:main:267 - Loaded 92 rows into 'companies'
+2026-07-15 11:38:15.149 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:38:15.158 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:38:15.163 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:38:15.168 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:38:15.173 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:38:15.180 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:38:15.188 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:38:15.190 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:38:15.195 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:38:15.200 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:38:15.208 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:38:15.218 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:38:15.227 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:38:15.234 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:38:15.240 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:38:15.247 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:38:15.266 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:38:15.272 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:40:23.956 | INFO     | __main__:main:256 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:40:23.966 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:40:24.070 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:40:24.070 | INFO     | __main__:main:264 - Loading 'companies' table...
+2026-07-15 11:40:24.125 | SUCCESS  | __main__:main:267 - Loaded 92 rows into 'companies'
+2026-07-15 11:40:24.143 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:40:24.149 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:40:24.154 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:40:24.160 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:40:24.164 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:40:24.167 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:40:24.174 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:40:24.179 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:40:24.185 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:40:24.189 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:40:24.199 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:40:24.209 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:40:24.218 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:40:24.224 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:40:24.234 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:40:24.238 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:40:24.251 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:40:24.256 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:40:43.121 | INFO     | __main__:main:256 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:40:43.197 | INFO     | __main__:connect:45 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:40:44.031 | SUCCESS  | __main__:create_schema:52 - Schema created
+2026-07-15 11:40:44.032 | INFO     | __main__:main:264 - Loading 'companies' table...
+2026-07-15 11:40:44.156 | SUCCESS  | __main__:main:267 - Loaded 92 rows into 'companies'
+2026-07-15 11:40:44.187 | WARNING  | __main__:load_all_tables:93 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:40:44.198 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'sectors'
+2026-07-15 11:40:44.206 | WARNING  | __main__:load_all_tables:93 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:40:44.218 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:40:44.228 | WARNING  | __main__:load_all_tables:93 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:40:44.242 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'analysis'
+2026-07-15 11:40:44.258 | WARNING  | __main__:load_all_tables:93 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:40:44.266 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'documents'
+2026-07-15 11:40:44.274 | WARNING  | __main__:load_all_tables:93 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:40:44.284 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:40:44.303 | WARNING  | __main__:load_all_tables:93 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:40:44.328 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:40:44.344 | WARNING  | __main__:load_all_tables:93 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:40:44.363 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:40:44.376 | WARNING  | __main__:load_all_tables:93 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:40:44.388 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:40:44.423 | WARNING  | __main__:load_all_tables:93 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:40:44.442 | SUCCESS  | __main__:load_all_tables:100 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:41:00.048 | INFO     | __main__:main:257 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:41:00.060 | INFO     | __main__:connect:46 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:41:00.215 | SUCCESS  | __main__:create_schema:53 - Schema created
+2026-07-15 11:41:00.216 | INFO     | __main__:main:265 - Loading 'companies' table...
+2026-07-15 11:41:00.347 | SUCCESS  | __main__:main:268 - Loaded 92 rows into 'companies'
+2026-07-15 11:41:00.380 | WARNING  | __main__:load_all_tables:94 - Could not map 92 rows for table 'sectors'. Unmapped values: [nan]
+2026-07-15 11:41:00.390 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'sectors'
+2026-07-15 11:41:00.399 | WARNING  | __main__:load_all_tables:94 - Could not map 56 rows for table 'peer_groups'. Unmapped values: [nan]
+2026-07-15 11:41:00.409 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'peer_groups'
+2026-07-15 11:41:00.419 | WARNING  | __main__:load_all_tables:94 - Could not map 20 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:41:00.433 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'analysis'
+2026-07-15 11:41:00.450 | WARNING  | __main__:load_all_tables:94 - Could not map 1585 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:41:00.463 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'documents'
+2026-07-15 11:41:00.473 | WARNING  | __main__:load_all_tables:94 - Could not map 16 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:41:00.483 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'prosandcons'
+2026-07-15 11:41:00.501 | WARNING  | __main__:load_all_tables:94 - Could not map 1276 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:41:00.524 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'profitandloss'
+2026-07-15 11:41:00.543 | WARNING  | __main__:load_all_tables:94 - Could not map 1312 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:41:00.556 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'balancesheet'
+2026-07-15 11:41:00.571 | WARNING  | __main__:load_all_tables:94 - Could not map 1187 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:41:00.583 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'cashflow'
+2026-07-15 11:41:00.618 | WARNING  | __main__:load_all_tables:94 - Could not map 5520 rows for table 'stock_prices'. Unmapped values: [nan]
+2026-07-15 11:41:00.627 | SUCCESS  | __main__:load_all_tables:101 - Loaded 0 rows into 'stock_prices'
+2026-07-15 11:44:50.188 | INFO     | __main__:main:267 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:44:50.201 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:44:50.323 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:44:50.324 | INFO     | __main__:main:275 - Loading 'companies' table...
+2026-07-15 11:44:50.441 | SUCCESS  | __main__:main:288 - Loaded 92 rows into 'companies'
+2026-07-15 11:44:50.465 | SUCCESS  | __main__:load_all_tables:110 - Loaded 92 rows into 'sectors'
+2026-07-15 11:44:50.485 | SUCCESS  | __main__:load_all_tables:110 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:44:50.496 | WARNING  | __main__:load_all_tables:103 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:44:50.513 | SUCCESS  | __main__:load_all_tables:110 - Loaded 16 rows into 'analysis'
+2026-07-15 11:44:50.532 | WARNING  | __main__:load_all_tables:103 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:44:50.564 | SUCCESS  | __main__:load_all_tables:110 - Loaded 1457 rows into 'documents'
+2026-07-15 11:44:50.571 | WARNING  | __main__:load_all_tables:103 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:44:50.585 | SUCCESS  | __main__:load_all_tables:110 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:44:50.604 | WARNING  | __main__:load_all_tables:103 - Could not map 99 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:45:05.834 | INFO     | __main__:main:271 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:45:05.843 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:45:05.937 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:45:05.937 | INFO     | __main__:main:279 - Loading 'companies' table...
+2026-07-15 11:45:06.022 | SUCCESS  | __main__:main:292 - Loaded 92 rows into 'companies'
+2026-07-15 11:45:06.038 | SUCCESS  | __main__:load_all_tables:114 - Loaded 92 rows into 'sectors'
+2026-07-15 11:45:06.051 | SUCCESS  | __main__:load_all_tables:114 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:45:06.058 | WARNING  | __main__:load_all_tables:107 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:45:06.068 | SUCCESS  | __main__:load_all_tables:114 - Loaded 16 rows into 'analysis'
+2026-07-15 11:45:06.085 | WARNING  | __main__:load_all_tables:107 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:45:06.104 | SUCCESS  | __main__:load_all_tables:114 - Loaded 1457 rows into 'documents'
+2026-07-15 11:45:06.109 | WARNING  | __main__:load_all_tables:107 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:45:06.121 | SUCCESS  | __main__:load_all_tables:114 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:45:06.136 | WARNING  | __main__:load_all_tables:107 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:45:31.076 | INFO     | __main__:main:275 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:45:31.095 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:45:31.280 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:45:31.281 | INFO     | __main__:main:283 - Loading 'companies' table...
+2026-07-15 11:45:31.441 | SUCCESS  | __main__:main:296 - Loaded 92 rows into 'companies'
+2026-07-15 11:45:31.473 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:45:31.498 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:45:31.512 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:45:31.534 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:45:31.596 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:45:31.629 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:45:31.640 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:45:31.657 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:45:31.701 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:45:31.735 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:45:31.770 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:45:31.811 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:45:31.836 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:45:31.861 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:45:31.972 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:45:52.901 | INFO     | __main__:main:278 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:45:52.916 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:45:53.060 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:45:53.060 | INFO     | __main__:main:286 - Loading 'companies' table...
+2026-07-15 11:45:53.193 | SUCCESS  | __main__:main:299 - Loaded 92 rows into 'companies'
+2026-07-15 11:45:53.221 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:45:53.247 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:45:53.262 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:45:53.281 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:45:53.334 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:45:53.368 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:45:53.377 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:45:53.395 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:45:53.435 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:45:53.484 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:45:53.512 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:45:53.548 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:45:53.575 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:45:53.602 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:45:53.787 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:46:22.376 | INFO     | __main__:main:282 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:46:22.385 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:46:22.520 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:46:22.521 | INFO     | __main__:main:290 - Loading 'companies' table...
+2026-07-15 11:46:22.665 | SUCCESS  | __main__:main:303 - Loaded 92 rows into 'companies'
+2026-07-15 11:46:22.690 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:46:22.705 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:46:22.713 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:46:22.725 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:46:22.767 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:46:22.788 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:46:22.794 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:46:22.805 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:46:22.828 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:46:22.853 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:46:22.875 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:46:22.899 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:46:22.917 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:46:22.936 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:46:23.043 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:46:23.586 | SUCCESS  | __main__:verify_foreign_keys:257 - Foreign Key Check PASSED (0 violations)
+2026-07-15 11:46:23.588 | SUCCESS  | __main__:main:313 - Database build completed.
+2026-07-15 11:47:41.882 | INFO     | __main__:main:288 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:47:41.897 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:47:42.043 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:47:42.043 | INFO     | __main__:main:296 - Loading 'companies' table...
+2026-07-15 11:47:42.197 | SUCCESS  | __main__:main:309 - Loaded 92 rows into 'companies'
+2026-07-15 11:47:42.230 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:47:42.255 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:47:42.271 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:47:42.290 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:47:42.355 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:47:42.397 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:47:42.409 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:47:42.429 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:47:42.475 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:47:42.523 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:47:42.566 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:47:42.606 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:47:42.639 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:47:42.671 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:47:42.824 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:48:12.751 | INFO     | __main__:main:296 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:48:12.758 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:48:12.846 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:48:12.846 | INFO     | __main__:main:304 - Loading 'companies' table...
+2026-07-15 11:48:12.934 | SUCCESS  | __main__:main:317 - Loaded 92 rows into 'companies'
+2026-07-15 11:48:12.944 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:48:12.953 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:48:12.959 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:48:12.968 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:48:12.992 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:48:13.005 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:48:13.009 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:48:13.020 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:48:13.034 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:48:13.048 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:48:13.060 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:48:13.073 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:48:13.084 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:48:13.101 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:48:13.164 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:49:28.647 | INFO     | __main__:main:311 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:49:28.667 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:49:28.814 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:49:28.815 | INFO     | __main__:main:319 - Loading 'companies' table...
+2026-07-15 11:49:28.942 | SUCCESS  | __main__:main:332 - Loaded 92 rows into 'companies'
+2026-07-15 11:49:28.981 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:49:29.002 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:49:29.013 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:49:29.028 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:49:29.086 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:49:29.117 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:49:29.128 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:49:29.147 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:49:29.184 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:49:29.220 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:49:29.251 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:49:29.286 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:49:29.314 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:49:29.340 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:49:29.466 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:50:09.861 | INFO     | __main__:main:312 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:50:09.873 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:50:09.985 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:50:09.986 | INFO     | __main__:main:320 - Loading 'companies' table...
+2026-07-15 11:50:10.076 | SUCCESS  | __main__:main:333 - Loaded 92 rows into 'companies'
+2026-07-15 11:50:10.095 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:50:10.110 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:50:10.119 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:50:10.130 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:50:10.172 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:50:10.192 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:50:10.200 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:50:10.215 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:50:10.246 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:50:10.276 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:50:10.295 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:50:10.320 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:50:10.336 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:50:10.357 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:50:10.459 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:50:25.668 | INFO     | __main__:main:312 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:50:25.679 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:50:25.778 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:50:25.778 | INFO     | __main__:main:320 - Loading 'companies' table...
+2026-07-15 11:50:25.854 | SUCCESS  | __main__:main:333 - Loaded 92 rows into 'companies'
+2026-07-15 11:50:25.866 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:50:25.875 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:50:25.881 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:50:25.888 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:50:25.912 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:50:25.923 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:50:25.927 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:50:25.934 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:50:25.946 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:50:25.959 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:50:25.970 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:50:25.983 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:50:25.999 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:50:26.011 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:50:26.077 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 11:54:01.729 | INFO     | __main__:main:312 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:54:01.742 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 11:54:01.846 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 11:54:01.847 | INFO     | __main__:main:320 - Loading 'companies' table...
+2026-07-15 11:54:01.943 | SUCCESS  | __main__:main:333 - Loaded 92 rows into 'companies'
+2026-07-15 11:54:01.961 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 11:54:01.978 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 11:54:01.989 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 11:54:02.007 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 11:54:02.055 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 11:54:02.081 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 11:54:02.089 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 11:54:02.106 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 11:54:02.143 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 11:54:02.180 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 11:54:02.221 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 11:54:02.268 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 11:54:02.300 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 11:54:02.326 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 11:54:02.467 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 12:38:26.645 | INFO     | __main__:main:317 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 12:38:26.660 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 12:38:26.816 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 12:38:26.817 | INFO     | __main__:main:325 - Loading 'companies' table...
+2026-07-15 12:38:26.954 | SUCCESS  | __main__:main:338 - Loaded 92 rows into 'companies'
+2026-07-15 12:38:26.990 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 12:38:27.022 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 12:38:27.039 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 12:38:27.059 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 12:38:27.111 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 12:38:27.128 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 12:38:27.136 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 12:38:27.144 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 12:38:27.165 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 12:38:27.186 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 12:38:27.208 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 12:38:27.225 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 12:38:27.244 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 12:38:27.262 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 12:38:27.327 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 12:38:27.327 | INFO     | __main__:populate_financial_ratios:124 - Calculating and populating financial ratios...
+2026-07-15 12:38:31.263 | SUCCESS  | __main__:populate_financial_ratios:270 - Loaded 1073 rows into 'financial_ratios'
+2026-07-15 12:38:31.271 | SUCCESS  | __main__:verify_foreign_keys:292 - Foreign Key Check PASSED (0 violations)
+2026-07-15 12:38:31.277 | SUCCESS  | __main__:main:348 - Database build completed.
+2026-07-15 12:49:11.390 | SUCCESS  | __main__:generate_ratio_edge_cases:149 - Saved ratio edge cases -> D:\Intern_BlueStock\nifty100-data-foundation\output\ratio_edge_cases.log
+2026-07-15 12:51:08.883 | SUCCESS  | __main__:generate_capital_allocation:106 - Saved capital allocation -> D:\Intern_BlueStock\nifty100-data-foundation\output\capital_allocation.csv
+2026-07-15 12:57:12.645 | SUCCESS  | __main__:generate_ratio_edge_cases:149 - Saved ratio edge cases -> D:\Intern_BlueStock\nifty100-data-foundation\output\ratio_edge_cases.log
+2026-07-15 12:57:23.687 | SUCCESS  | __main__:generate_capital_allocation:106 - Saved capital allocation -> D:\Intern_BlueStock\nifty100-data-foundation\output\capital_allocation.csv
+2026-07-15 13:02:09.180 | INFO     | __main__:main:317 - Removing old database file: D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 13:02:09.189 | INFO     | __main__:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-15 13:02:09.259 | SUCCESS  | __main__:create_schema:54 - Schema created
+2026-07-15 13:02:09.260 | INFO     | __main__:main:325 - Loading 'companies' table...
+2026-07-15 13:02:09.328 | SUCCESS  | __main__:main:338 - Loaded 92 rows into 'companies'
+2026-07-15 13:02:09.338 | SUCCESS  | __main__:load_all_tables:118 - Loaded 92 rows into 'sectors'
+2026-07-15 13:02:09.347 | SUCCESS  | __main__:load_all_tables:118 - Loaded 56 rows into 'peer_groups'
+2026-07-15 13:02:09.355 | WARNING  | __main__:load_all_tables:111 - Could not map 4 rows for table 'analysis'. Unmapped values: [nan]
+2026-07-15 13:02:09.363 | SUCCESS  | __main__:load_all_tables:118 - Loaded 16 rows into 'analysis'
+2026-07-15 13:02:09.390 | WARNING  | __main__:load_all_tables:111 - Could not map 128 rows for table 'documents'. Unmapped values: [nan]
+2026-07-15 13:02:09.407 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1456 rows into 'documents'
+2026-07-15 13:02:09.412 | WARNING  | __main__:load_all_tables:111 - Could not map 2 rows for table 'prosandcons'. Unmapped values: [nan]
+2026-07-15 13:02:09.420 | SUCCESS  | __main__:load_all_tables:118 - Loaded 14 rows into 'prosandcons'
+2026-07-15 13:02:09.434 | WARNING  | __main__:load_all_tables:111 - Could not map 91 rows for table 'profitandloss'. Unmapped values: [nan]
+2026-07-15 13:02:09.453 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1073 rows into 'profitandloss'
+2026-07-15 13:02:09.469 | WARNING  | __main__:load_all_tables:111 - Could not map 79 rows for table 'balancesheet'. Unmapped values: [nan]
+2026-07-15 13:02:09.484 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1058 rows into 'balancesheet'
+2026-07-15 13:02:09.496 | WARNING  | __main__:load_all_tables:111 - Could not map 96 rows for table 'cashflow'. Unmapped values: [nan]
+2026-07-15 13:02:09.511 | SUCCESS  | __main__:load_all_tables:118 - Loaded 1056 rows into 'cashflow'
+2026-07-15 13:02:09.580 | SUCCESS  | __main__:load_all_tables:118 - Loaded 5520 rows into 'stock_prices'
+2026-07-15 13:02:09.581 | INFO     | __main__:populate_financial_ratios:124 - Calculating and populating financial ratios...
+2026-07-15 13:02:12.913 | SUCCESS  | __main__:populate_financial_ratios:270 - Loaded 1073 rows into 'financial_ratios'
+2026-07-15 13:02:12.916 | SUCCESS  | __main__:verify_foreign_keys:292 - Foreign Key Check PASSED (0 violations)
+2026-07-15 13:02:12.918 | SUCCESS  | __main__:main:348 - Database build completed.

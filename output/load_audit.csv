@@ -1,4 +1,13 @@
-Table,Rows Loaded,Rejected,Time,Status,Message
-companies,92,0,2026-07-14 14:44:46,SUCCESS,
-profitandloss,1276,0,2026-07-14 14:44:46,SUCCESS,
-balancesheet,1312,0,2026-07-14 14:44:46,SUCCESS,
+Table,Rows Loaded,Rejected,Time,Status
+analysis,20,0,2026-07-15 11:23:56,SUCCESS
+balancesheet,1312,0,2026-07-15 11:23:56,SUCCESS
+cashflow,1187,0,2026-07-15 11:23:57,SUCCESS
+companies,92,0,2026-07-15 11:23:57,SUCCESS
+documents,1585,0,2026-07-15 11:23:57,SUCCESS
+financial_ratios,1184,0,2026-07-15 11:23:57,SUCCESS
+market_cap,552,0,2026-07-15 11:23:57,SUCCESS
+peer_groups,56,0,2026-07-15 11:23:57,SUCCESS
+profitandloss,1276,0,2026-07-15 11:23:58,SUCCESS
+prosandcons,16,0,2026-07-15 11:23:58,SUCCESS
+sectors,92,0,2026-07-15 11:23:58,SUCCESS
+stock_prices,5520,0,2026-07-15 11:23:58,SUCCESS

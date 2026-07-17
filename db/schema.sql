@@ -294,6 +294,11 @@ CREATE TABLE IF NOT EXISTS financial_ratios (
 
     cash_from_operations_cr REAL,
 
+    revenue_cagr_5yr REAL,
+    pat_cagr_5yr REAL,
+    eps_cagr_5yr REAL,
+    composite_quality_score REAL,
+
     UNIQUE(company_id, year),
 
     FOREIGN KEY(company_id)

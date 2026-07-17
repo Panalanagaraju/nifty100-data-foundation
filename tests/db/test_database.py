@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 import pytest
 
-from src.etl.database import (
+from db.database import (
     connect,
     create_schema,
     close,
