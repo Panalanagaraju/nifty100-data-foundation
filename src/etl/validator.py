@@ -105,16 +105,16 @@ def find_col(df: pd.DataFrame, field: str) -> str | None:
 
 
 def add_failure(rule: str, severity: str, table: str, company="", year="", description=""):
-    FAILURES.append(
-        {
-            "Rule": rule,
-            "Severity": severity,
-            "Table": table,
-            "Company": company,
-            "Year": year,
-            "Description": description,
-        }
-    )
+    failure = {
+        "Rule": rule,
+        "Severity": severity,
+        "Table": table,
+        "Company": company,
+        "Year": year,
+        "Description": description,
+    }
+    FAILURES.append(failure)
+    return failure
 
 
 # --------------------------------------------------------------------------
@@ -149,57 +149,69 @@ def load_processed_csvs() -> dict[str, pd.DataFrame]:
 # DQ-01  Primary Key uniqueness (companies table)
 # --------------------------------------------------------------------------
 
-def check_primary_key(companies: pd.DataFrame | None):
+def check_primary_key(companies: pd.DataFrame | None, reset: bool = True):
+    if reset:
+        FAILURES.clear()
     if companies is None:
-        return
+        return []
     id_col = find_col(companies, "company_id")
     if not id_col:
         logger.warning("DQ-01: could not find a company identifier column in companies table.")
-        return
+        return []
 
+    failures = []
     dupes = companies[companies[id_col].duplicated(keep=False)]
     for _, row in dupes.iterrows():
-        add_failure(
+        failures.append(add_failure(
             "DQ-01", "HIGH", "companies", row.get(id_col, ""), "",
             f"Duplicate primary key value '{row[id_col]}' in companies table."
-        )
+        ))
+    return failures
 
 
 # --------------------------------------------------------------------------
 # DQ-02  (company, year) composite key uniqueness across time-series tables
 # --------------------------------------------------------------------------
 
-def check_company_year_key(name: str, df: pd.DataFrame):
+def check_company_year_key(name: str, df: pd.DataFrame, reset: bool = True):
+    if reset:
+        FAILURES.clear()
     company_col = find_col(df, "company")
     year_col = find_col(df, "year")
     if not company_col or not year_col:
         logger.warning(f"DQ-02: skipping '{name}' (missing company/year column).")
-        return
+        return []
 
+    failures = []
     dupes = df[df.duplicated(subset=[company_col, year_col], keep=False)]
     for _, row in dupes.iterrows():
-        add_failure(
+        failures.append(add_failure(
             "DQ-02", "HIGH", name, row.get(company_col, ""), row.get(year_col, ""),
             f"Duplicate (company, year) combination in '{name}'."
-        )
+        ))
+    return failures
 
 
 # --------------------------------------------------------------------------
 # DQ-03  Foreign key — company must exist in companies table
 # --------------------------------------------------------------------------
 
-def check_foreign_key(name: str, df: pd.DataFrame, valid_companies: set):
+def check_foreign_key(name: str, df: pd.DataFrame, valid_companies: set, reset: bool = True):
+    if reset:
+        FAILURES.clear()
     company_col = find_col(df, "company")
     if not company_col or not valid_companies:
         logger.warning(f"DQ-03: skipping '{name}' (missing company column or no companies list).")
-        return
+        return []
 
+    failures = []
     unknown = df[~df[company_col].isin(valid_companies)]
     for _, row in unknown.iterrows():
-        add_failure(
+        failures.append(add_failure(
             "DQ-03", "HIGH", name, row.get(company_col, ""), row.get(find_col(df, "year"), ""),
             f"Company '{row[company_col]}' in '{name}' not found in companies table."
-        )
+        ))
+    return failures
 
 
 # --------------------------------------------------------------------------
@@ -293,29 +305,33 @@ def check_operating_margin(df: pd.DataFrame):
 # DQ-06  Sales > 0
 # --------------------------------------------------------------------------
 
-def check_sales_positive(df: pd.DataFrame):
+def check_sales_positive(df: pd.DataFrame, reset: bool = True):
+    if reset:
+        FAILURES.clear()
     company_col = find_col(df, "company")
     company_col = find_col(df, "company") or find_col(df, "company_id")
     year_col = find_col(df, "year")
     sales_col = find_col(df, "sales")
     if not sales_col:
         logger.warning("DQ-06: skipping (missing sales column).")
-        return
+        return []
 
+    failures = []
     df_check = df[[company_col, year_col, sales_col]].copy()
     df_check['sales_numeric'] = pd.to_numeric(df_check[sales_col], errors='coerce')
 
     # Check for non-numeric sales
     for _, row in df_check[df_check['sales_numeric'].isna()].iterrows():
-        add_failure("DQ-06", "HIGH", "profitandloss", row[company_col], row[year_col], "Sales value missing or non-numeric.")
+        failures.append(add_failure("DQ-06", "HIGH", "profitandloss", row[company_col], row[year_col], "Sales value missing or non-numeric."))
 
     # Check for non-positive sales
     for _, row in df_check.dropna(subset=['sales_numeric']).iterrows():
         sales = row['sales_numeric']
         if sales <= 0:
-            add_failure("DQ-06", "HIGH", "profitandloss", row[company_col], row[year_col],
+            failures.append(add_failure("DQ-06", "HIGH", "profitandloss", row[company_col], row[year_col],
                 f"Sales value {sales} is not greater than 0."
-            )
+            ))
+    return failures
 
 
 # --------------------------------------------------------------------------

@@ -545,3 +545,25 @@
 2026-07-15 13:02:12.913 | SUCCESS  | __main__:populate_financial_ratios:270 - Loaded 1073 rows into 'financial_ratios'
 2026-07-15 13:02:12.916 | SUCCESS  | __main__:verify_foreign_keys:292 - Foreign Key Check PASSED (0 violations)
 2026-07-15 13:02:12.918 | SUCCESS  | __main__:main:348 - Database build completed.
+2026-07-22 09:38:40.559 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:38:40.611 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:38:40.623 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:38:40.825 | SUCCESS  | db.database:create_schema:54 - Schema created
+2026-07-22 09:38:40.839 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:38:40.998 | SUCCESS  | db.database:create_schema:54 - Schema created
+2026-07-22 09:38:43.530 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:38:45.184 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:38:45.386 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:38:45.569 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:38:45.755 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:47:48.881 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:47:48.887 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:47:48.890 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:47:48.964 | SUCCESS  | db.database:create_schema:54 - Schema created
+2026-07-22 09:47:48.972 | INFO     | db.database:connect:47 - Connected to D:\Intern_BlueStock\nifty100-data-foundation\db\nifty100.db
+2026-07-22 09:47:49.043 | SUCCESS  | db.database:create_schema:54 - Schema created
+2026-07-22 09:47:50.075 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:47:50.177 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:47:50.252 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:47:50.341 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
+2026-07-22 09:47:50.398 | INFO     | src.etl.loader:load_excel:56 - Loading sample.xlsx (header=0)
